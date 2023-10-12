@@ -8,7 +8,7 @@ function mostrar(){
         e= parseInt(prompt("Ingrese la altura"))
         var resultado= y*e;
         if (y!=0 && e!=0){
-            document.write("El area del rectangulo es :" "")
+            document.write("El area del rectangulo es :" )
         }else{
             document.write ("Verifica tus datos de la base y altura")
         }

@@ -1,0 +1,17 @@
+div#respuesta{
+    display: none;
+}
+.caja{
+    width: 280px;
+    height: 100px;
+    position: sticky;
+    top: 50px; left: 400px;
+}
+body{
+    background-image: url(./img/calculadora.jpeg);
+}
+
+.titulo{
+    font-family: cursive;
+    font-size: 50px;
+}
