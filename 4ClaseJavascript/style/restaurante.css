@@ -1,6 +1,8 @@
 body {
+    background-image: url(./img/rest.jpeg);
+    background-size: contain;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #1898cf;
+    background-color: #d37ceb;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,19 +12,17 @@ body {
     height: 100vh;
 }
 
-h1 {
-    color: #16e8a6;
-}
+
 
 .contenedor {
     margin-top: 20px;
 }
 
 .caja {
-    background-color: #44cef5;
+    background-color: #d37ceb;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.909);
     margin-top: 20px;
     width: 300px;
 }
@@ -50,4 +50,8 @@ h1 {
 .alert {
     margin-top: 20px;
     display: none;
+}
+
+h1 {
+    color: #ffffff;
 }

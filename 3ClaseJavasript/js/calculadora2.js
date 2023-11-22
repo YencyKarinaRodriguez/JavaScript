@@ -1,3 +1,4 @@
+//aqui se crea la funcion de sumar
 function sumar (n1, n2){
     var resultado = n1 + n2;
     var res = document.getElementById("resultado")
@@ -12,6 +13,7 @@ function sumar (n1, n2){
     }
 }
 
+//aqui se cre la funcion de restar
 function restar (n1, n2){
     var resultado = n1 - n2;
     var res = document.getElementById("resultado")
@@ -26,6 +28,7 @@ function restar (n1, n2){
     }
 }
 
+//aqui se la funcion de multiplicar
 function multiplicar (n1, n2){
     var resultado = n1 * n2;
     var res = document.getElementById("resultado")
@@ -40,6 +43,7 @@ function multiplicar (n1, n2){
     }
 }
 
+//aqui se crea la funcion dividir
 function dividir (n1, n2){
     var resultado = n1 / n2;
     var res = document.getElementById("resultado")
@@ -54,6 +58,7 @@ function dividir (n1, n2){
     }
 }
 
+//aqui se crea la funcion mostrar 
 function mostrar(){
     let n1 = parseInt(document.getElementById("n1").value)
     let n2 = parseInt(document.getElementById("n2").value)
@@ -72,6 +77,6 @@ function mostrar(){
             dividir(n1, n2)
             break;
         default:
-            alert("Opcion Inválida")
+            alert("Opcion Invalida")
     }
 }
