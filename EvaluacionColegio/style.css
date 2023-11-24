@@ -1,0 +1,95 @@
+body{
+  font-family: cursive;
+}
+
+header{
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+header img {
+  height: 100px;
+  width: 100px;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0%;
+}
+.titulo{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  display: flex;
+}
+
+.contenedorImagenes{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 50%;
+  max-width: 50%;
+  margin: 20px ;
+  padding: 0px;
+  margin: 0px;
+}
+.contenedorImagenes div {
+  display: grid;
+  place-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.contenedorImagenes div h2{
+  margin: 0px;
+}
+
+.texto {
+  position: absolute;
+  width: calc(150% - 0px);
+  text-align: center; 
+}
+
+.texto button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #00adb3;
+  color: #0f0e0e;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+.texto button:hover {
+  background-color: #00adb3;
+} 
+.imagen {
+  width: 50%;
+  display: flex;
+  margin: 0px;
+  justify-content: space-evenly;
+
+}
+.imagen div{
+display: grid;
+place-items: center;
+height: 150px;
+
+}
+.imagen div h2 {
+  margin: 0px;
+}
+.imagen img{
+  width: 150px;
+  height: 150px;
+}
+.costo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
