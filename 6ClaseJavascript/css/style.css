@@ -1,0 +1,42 @@
+body {
+    background-image: url(./img/jean.jpg);
+    background-size: contain;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center{
+    font-family: cursive;
+    font-weight: bold;
+    color: black;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    color: black;
+}
+
+
+
+.total{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: cursive;
+    color: black;
+}
+
+.h2 {
+    font-family: cursive;
+    font-weight: bold;
+} 
