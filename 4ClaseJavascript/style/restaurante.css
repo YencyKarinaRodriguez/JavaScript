@@ -2,7 +2,6 @@ body {
     background-image: url(./img/rest.jpeg);
     background-size: contain;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #d37ceb;
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,7 +18,6 @@ body {
 }
 
 .caja {
-    background-color: #d37ceb;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.909);
