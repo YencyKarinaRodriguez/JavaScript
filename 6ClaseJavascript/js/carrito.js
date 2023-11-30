@@ -36,6 +36,8 @@ function restar1() {
         pro1 -= 45000;
         //aqui se actualiza el total 
         subTotal1.innerHTML = pro1;
+    }
+    else{
     //aqui se crea una condicion donde dice que de lo contrario el contador y el subtotal permaneceran en 0
         contador1 = 0;
         pro1 = 0;
@@ -47,7 +49,7 @@ function restar1() {
 }
 
 //aqui se crea otra funcion que se llama reset1
-function resetear1() {
+function reset1() {
     //aqui se crea el contador y el subtotal va a valer cero 
     contador1 = 0;
     pro1 = 0;
