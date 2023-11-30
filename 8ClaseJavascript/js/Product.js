@@ -17,4 +17,3 @@ export class Product {
     this.totalPrice = price * quantity;
   }
 }
-

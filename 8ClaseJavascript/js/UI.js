@@ -58,4 +58,3 @@ export class UI {
     }, 3000);
   }
 }
-

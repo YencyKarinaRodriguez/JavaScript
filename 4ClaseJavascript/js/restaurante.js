@@ -1,3 +1,5 @@
+var resultado=document.getElementById('resultado');
+
 //aqui se crea la funcion de calcular pedido
 function calcularTotal(cantidad, valor) {
     return cantidad * valor;
@@ -25,9 +27,9 @@ function mostrarResultado(mensaje) {
 //aqui se crea ka funcion para realizar la orden
 function mostrarOrden() {
     //aqui se muestra el valor de los platos, cantidad o tipo
-    let cantidad = parseInt(documento.getElementById("cantidad").valor);
-    let valor = parseInt(document.getElementById("valor").valor);
-    let tipo = documento.getElementById("tipo").valor;
+    const cantidad = parseInt(documento.getElementById("cantidad").valor);
+    const valor = parseInt(document.getElementById("valor").valor);
+    const tipo = documento.getElementById("tipo").valor;
 
     if (cantidad  > 0 && valor > 0 &&  tipo !== "Tipo de Plato") {
         //aqui se calcula el total del pedido
@@ -38,4 +40,6 @@ function mostrarOrden() {
         //aqui se muestra un mensaje de algun error
         mostrarResultado("Verifique sus datos. Complete la cantidad, valor y tipo de plato correctamente.");
     }
+
+    resultado.innerHTML= total; 
 }
