@@ -1,3 +1,7 @@
+div#respuesta{
+    display: none;
+}
+
 body {
     background-image: url(./img/rest.jpeg);
     background-size: contain;
@@ -51,5 +55,5 @@ body {
 }
 
 h1 {
-    color: #ffffff;
+    color: black;
 }
