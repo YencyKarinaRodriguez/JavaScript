@@ -9,6 +9,73 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <h1 class="center">Compra de Productos</h1>
+    <h2 class="center">Pantalones de $50000</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-outline-danger" onclick="restar1()">-</button>
+                <button type="button" class="btn btn-outline-warning" onclick="reset1()">0</i></button>
+                <button type="button" id="incrementar" class="btn btn-outline-success" onclick="sumar1()">+</button>
+            </div>
+            <div class="col">
+                <img src="./img/jns.jpg" alt="img" width="150px">
+            </div>
+            <div class="col">
+                <h2 class="center">Cantidad = <span id="valor1"> 0</span></h2>
+            </div>
+            <div class="col">
+                <h2>SubTotal = $<span id="subTotal1"> 0</span></h2>
+            </div>
+        </div>
+    <h2 class="center">Camisetas de $25000</h2>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-outline-danger" onclick="restar2()">-</button>
+                <button type="button" class="btn btn-outline-warning" onclick="reset2()">0</i></button>
+                <button type="button" id="incrementar" class="btn btn-outline-success" onclick="sumar2()">+</button>
+            </div>
+            <div class="col">
+                <img src="./img/camisas.jpg" alt="img" width="150px">
+            </div>
+            <div class="col">
+                <h2 class="center">Cantidad = <span id="valor2">0</span></h2>
+            </div>
+            <div class="col">
+                <h2>SubTotal = $<span id="subTotal2">0</span></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2></h2>
+            </div>
+            <div class="col">
+                <h2></h2>
+            </div>
+            <div class="col">
+                <h2>Total = $<span id="total">0</span></h2>
+            </div>
+        </div>
+    </div>
+    <script src="./js/carrito.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Carrito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
     <h1 class="center">Productos</h1>
     <h2 class="center">Jeans $45000</h2>
     <div class="container">
@@ -18,6 +85,16 @@
                 <button type="button" class="btn btn-danger" onclick="restar1()">-</button>
                 <button type="button" class="btn btn-primary" onclick="reset1()">0</button>
             </div>
+
+            <div class="col">
+                <img src="./img/jeans.jpg" alt="img" width="50px">
+            </div>
+
+            <div>
+                <img src="./img/jns.jpg" alt="img" width="50px">
+            </div>
+
+
             <div class="col">
                 <h2 class="center">Cantidad = <span id="valor1"> 0</span></h2>
             </div>
@@ -54,7 +131,7 @@
     <script src="./js/carrito.js"></script>
 </body>
 </html>
-
+ -->
 
 
 
