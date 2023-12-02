@@ -2,6 +2,7 @@
 function sumar (n1, n2){
     var resultado = n1 + n2;
     var res = document.getElementById("resultado")
+    //aqui se crea una condicion 
     if (n1 != 0 && n2 != 0){
         respuesta.style.display = "block";
         res.innerHTML = `Total: ${resultado}`;
